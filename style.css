@@ -1,0 +1,164 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+    background-color: #f0f0f0;
+  }
+
+  img {
+    animation: spin 5s linear infinite;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+
+  }
+
+  .logo_starlets {
+    align-items: center;
+  }
+
+  .container a {
+    text-decoration: none;
+    
+  }
+
+  
+  .container p {
+    color: white;
+    cursor: pointer;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 36px;
+    color: #333333;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  .container .subtitle {
+    text-align: center;
+    font-size: 24px;
+    color: #666666;
+    
+  }
+  
+  .enter {
+   
+    color: white;
+    text-align: center;
+    font-size: 20px;
+  }
+
+
+  button {
+   display: block;
+   width:150px; 
+   height :50px; 
+   margin :40px auto; 
+   background-color:#0099ff; 
+   border-radius :10px; 
+   border: none;
+   cursor: pointer;
+   font-weight: 400;
+   font-size: 18px;
+   transition: transform 0.2s ease;
+   box-shadow: 0 5px 10px rgb(0, 0, 0, 0.3);
+  
+  }
+
+  .button:active {
+    transform: scale(0.96);
+  }
+  
+
+  .button::before,
+  .button::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 150px;
+    border: 2px solid red ;
+  }
+  
+  .button::before{
+    top: -70%;
+  }
+
+  .button::after{
+    bottom: -70%;
+  }
+
+
+
+
+  .enter-button:hover {
+   background-color:#0066cc; 
+   cursor:pointer; 
+  }
+
+
+  .download_btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+
+  .enter-button {
+    /* Basic button style */
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    
+    /* Glossy effect using linear gradient */
+    background-image: linear-gradient(to bottom, #0099ff, #3d83b2, #2795de, #238dd3);
+  }
+  
+  /* Change the gradient direction on hover */
+  .enter-button:hover {
+    background-image: linear-gradient(to top, #618ca9, #3095d8, #48a2df, #378cc5);
+  }
+
+
+
+  .footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #999999;
+    justify-content: center;
+    margin-top: 200px;
+  }
+  
+  .footer a {color:#999999;}
+  
+  .footer a:hover {color:#666666;}
