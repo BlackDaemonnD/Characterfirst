@@ -29,13 +29,27 @@
     color: #666666;
     margin-top: 5px;
   }
+
+  .stu_ma {
+    color: #fff;
+  }
+
+  .gra_ma {
+    color: #20db20;
+  }
   
  
+  .slid {
+    background-image: url(images/upcoming-bg.png);
+  }
 
+  .description{
+    color: #beb6b6;
+  }
 
   /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #333;
+    background-color: rgb(24, 21, 1);;
     overflow: hidden;
   }
   
@@ -50,25 +64,25 @@
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: #1c9dc1;
+    background-color: #20db20;
     color: rgb(255, 255, 255);
   }
   
   /* Add an active class to highlight the current page */
   .topnav a.active {
-    background-color: #252424;
+    background-color: #1e951e;
     color: white;
   }
 
   .topnav a.active:hover {
-    background-color: #0099ff;
-    color: white;
+    background-color: #20db20;
+    color: rgb(255, 217, 5);
   }
 
   .slider-content {
     margin: 0 40px;
     padding: 45px 20px;
-    background-color: #fff;
+    background-color: #fffefb;
     overflow: hidden;
     border-radius: 25px;
 
@@ -125,7 +139,7 @@
     height: 100%;
     width: 100%;
     border-radius: 25px 25px 0 25px;
-    background-color: #4070f4;
+    background-color: #20db20;
   }
 
   .overlay::before,
@@ -136,12 +150,12 @@
     bottom: -40px;
     height: 40px;
     width: 40px;
-    background-color: #4070f4;
+    background-color: #20db20;
   }
 
   .overlay::after {
     border-radius: 0 25px 0 0;
-    background-color: #fff;
+    background-color: #fffefb;
   }
 
 
@@ -150,7 +164,7 @@
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    background: #fff;
+    background: #fffefb;
     padding: 3px;
   }
 
@@ -159,7 +173,7 @@
     width: 100%;
     object-fit: cover;
     border-radius: 50%;
-    border: 4px solid #4070f4 ;
+    border: 4px solid #20db20 ;
   }
 
   .name {
@@ -174,24 +188,72 @@
     text-align: center;
   }
 
-  .button {
+
+
+
+  .button_junior {
     border: none;
     font-size: 16px;
     color: #fff;
-    padding: 18px 16px;
-    background-color: #4070f4;
-    border-radius: 6px;
+    padding: 10px 16px;
+    background-color: #20db20;
+    border-radius: 10px;
     margin: 14px;
     cursor: pointer;
     transition: all 0.3s ease;
-    font-weight: 400;
-    font-size: 18px;
+    font-weight: 200;
+    font-size: 14px;
     box-shadow: 0 5px 10px rgb(0, 0, 0, 0.3);
   }
 
-  .button:hover {
-    background: #265d72;
+  .button_junior:hover {
+    background: #1e951e;
+    color: rgb(244, 239, 83);
   }
 
-   
+  .button_senior {
+    border: none;
+    font-size: 10px;
+    color: #fff;
+    padding: 10px 16px;
+    background-color: #20db20;
+    border-radius: 10px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 200;
+    font-size: 14px;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.3);
+  }
+
+  .button_senior:hover {
+    background: #1e951e;
+    color: rgb(244, 239, 83);
+  }
+
+  .enter {
+    border: none;
+    font-size: 10px;
+    padding: 10px 16px;
+    border-radius: 10px;
+    margin: 14px;
+    cursor: pointer;
+    background-color: #20db20;
+    transition: all 0.3s ease;
+    font-weight: 200;
+    font-size: 14px;
+    box-shadow: 0 5px 10px rgba(103, 187, 104, 0.3);
+    
+  } 
   
+  .enter p {
+    font-size: 16px;
+  }
+
+  .enter p:hover{
+    color: rgb(255, 217, 5);
+  }
+
+  .enter:hover {
+    background: #1e951e;;
+  }

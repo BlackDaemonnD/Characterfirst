@@ -10,6 +10,11 @@ body {
     background-color: #f0f0f0;
   }
 
+  .home {
+    background-image: url(images/upcoming-bg.png);
+  }
+
+
   img {
     animation: spin 5s linear infinite;
     margin-left: auto;
@@ -18,7 +23,7 @@ body {
   }
   
   @keyframes spin {
-    from {
+    from { 
       transform: rotate(0deg);
     }
     to {
@@ -26,6 +31,7 @@ body {
     }
   }
   
+
   .container {
     max-width: 800px;
     margin: 0 auto;
@@ -61,7 +67,7 @@ body {
   .container .subtitle {
     text-align: center;
     font-size: 24px;
-    color: #666666;
+    color: #ffffff;
     
   }
   
@@ -77,13 +83,13 @@ body {
    display: block;
    width:150px; 
    height :50px; 
-   margin :40px auto; 
-   background-color:#0099ff; 
-   border-radius :10px; 
+   margin :35px auto; 
+   background-color: #20db20;
+   border-radius :15px; 
    border: none;
    cursor: pointer;
-   font-weight: 400;
-   font-size: 18px;
+   font-weight: 200;
+   font-size: 16px;
    transition: transform 0.2s ease;
    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.3);
   
@@ -111,12 +117,24 @@ body {
     bottom: -70%;
   }
 
+  .enter-button {
+    background: #265d72;
+    cursor:pointer; 
+  }
 
 
+  .enter_btn {
+    background-color:#20db20;
+  }
 
-  .enter-button:hover {
-   background-color:#0066cc; 
-   cursor:pointer; 
+  .enter_btn p:hover {
+    color: rgb(255, 217, 5);
+  }
+
+
+  .enter_btn:hover{
+    background: #1e951e;
+    cursor:pointer; 
   }
 
 
@@ -147,6 +165,10 @@ body {
   }
 
 
+
+  .title {
+    color: #20db20;
+  }
 
   .footer {
     position: relative;
