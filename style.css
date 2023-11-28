@@ -30,6 +30,15 @@ body {
       transform: rotate(360deg);
     }
   }
+
+
+  #preloader {
+    background-color: #000;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100 ;
+  }
   
 
   .container {
